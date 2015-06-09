@@ -74,12 +74,12 @@ body {
   height: auto !important;
   height: 100%;
   position: relative;
-  background: #eeeeee;
+  background: url(../img/bg.png);
 }
 
 .wrap-content {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1196px;
 }
 
 .left,
@@ -102,7 +102,7 @@ body {
 -----------------------------------------------------------------------------*/
 
 .header-block {
-  padding: 30px 3px 30px 3px; 
+  padding: 30px 3px 20px 3px; 
   color: #787878;
   font-size: 100%
 }
@@ -124,24 +124,34 @@ body {
 -----------------------------------------------------------------------------*/
 
 .menu {
-  background: #6b6b6b;
+  /*background: #fff; /*#02a6da;*/ /*#6b6b6b;*/ 
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.3), 0 0 4px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0 0 4px rgba(0,0,0,0.3), 0 0 4px rgba(0,0,0,0.3);
+          box-shadow: 0 0 4px rgba(0,0,0,0.3), 0 0 4px rgba(0,0,0,0.3);
 }
 
+.menu ul {
+  background: #fff; /*#02a6da;*/ /*#6b6b6b;*/ 
+}
 .menu ul li {
   display: inline-block;
-  border-left: 1px solid #7c7c7c;
+  border-left: 1px solid #d3d3d3;
+}
+
+.menu ul li:first-child {
+  border-left: none;
 }
 
 .menu ul li a {
   display: block;
   padding: 20px;
   text-decoration: none;
-  color: #ffffff;
+  color: #6b6b6b;
   font-size: 1.5em;
 }
 
 .menu ul li a:hover {
-  color: #01a3d6;
+  color: #01a3d6;/*#d80202;*/ /**/
 }
 
 /* Section slider
@@ -149,7 +159,7 @@ body {
 
 .slider {
 
-  max-width: 1000px;
+  max-width: 1196px;
   height: 400px;
 
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.5);
@@ -162,7 +172,7 @@ body {
        -o-box-sizing: border-box;
 
   margin-top: 20px;
-  padding: 5px;
+  padding: 3px;
   overflow: hidden;
 }
 
@@ -234,11 +244,11 @@ body {
 .main-box a span {
   position: absolute;
   display: block;
-  left: 33%;
+  left: 35%;
   top: 20px;
   width: 80px;
   height: 80px;
-  padding-top: 10%;
+  padding-top: 9%;
 
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
