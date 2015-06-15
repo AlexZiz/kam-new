@@ -136,12 +136,8 @@ body {
 /* Section top menu
 -----------------------------------------------------------------------------*/
 
-.menu div {
-  padding: 2px;
-}
-
-.menu .home-link {
-
+.menu nav {
+  position: relative;
 }
 
 .menu ul {
@@ -149,6 +145,7 @@ body {
 }
 
 .menu ul li {
+  position: relative;
   display: inline-block;
   border-left: 1px solid #d3d3d3;
 }
@@ -167,11 +164,29 @@ body {
   color: #6b6b6b;
 }
 
+.menu div {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+.menu .home-link a {  /*#02a6da*/
+  float: left;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border-right: 1px solid #d3d3d3;
+  background-image: url(../img/home.png);  
+  background-repeat: no-repeat;
+  background-position: 15px 14px;
+}
+
 .menu ul li a:hover {
   color: #01a3d6;
 }
 
-.menu ul li a:hover::before {
+.menu ul li a:hover::before,
+.menu .home-link a:hover::before {
   content:"";
   position: absolute;
   top: 0;
@@ -179,6 +194,10 @@ body {
   width: 100%;
   height: 3px;
   background: #d80202;
+}
+
+.menu .home-link a:hover::before {
+  width: 60px;
 }
 
 
