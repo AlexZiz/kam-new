@@ -148,6 +148,7 @@ body {
   position: relative;
   display: inline-block;
   border-left: 1px solid #d3d3d3;
+  /*добавить стили для IE*/
 }
 
 .menu ul li:first-child {
@@ -317,18 +318,41 @@ body {
   margin: 30px 0 30px 0;
 }
 
-.main-content .title-content {
-  padding: 20px;
+.title-content {
+  margin-bottom: 70px;
+  padding: 30px;
+  font-size: 3em;
   text-align: center;
-  font-size: 2em;
-  font-weight: bold;
+  color: #6b6b6b;
+}
+.post {
+  display: inline-block;
+  margin-bottom: 40px;
+  padding: 10px 0 0 0;
+  max-width: 598px; 
+  border: 1px solid #01a3d6;
 }
 
-.main-content span {
-  font-size: 1.2em;
-  text-align: left;
+.post-text {
+  width: 500px;
 }
 
+.post-img {
+  width: 450px;
+  background: #eee;
+}
+
+.post-img img {
+  margin: 0;
+  padding: 0;
+  vertical-align:bottom;
+}
+
+.post-title {
+  margin: 0 0 30px 0;
+  font-size: 3em;
+  color: #d80202;
+}
 .main-content .content-map {
   margin: 30px 0 30px 0;
 }
