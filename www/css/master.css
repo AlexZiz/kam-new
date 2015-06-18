@@ -328,18 +328,19 @@ body {
 .post {
   display: inline-block;
   margin-bottom: 40px;
-  padding: 10px 0 0 0;
-  max-width: 598px; 
-  border: 1px solid #01a3d6;
+  padding: 20px;
+  margin-right: -3px;
+  max-width: 46.3210%; 
+  border: 1px solid #e2e2e2;
+  background: #f9f9f9;
 }
 
 .post-text {
-  width: 500px;
 }
 
 .post-img {
+  margin-left: 50px;
   width: 450px;
-  background: #eee;
 }
 
 .post-img img {
@@ -349,9 +350,10 @@ body {
 }
 
 .post-title {
-  margin: 0 0 30px 0;
+  margin-bottom: 20px;
+  text-align: center;
   font-size: 3em;
-  color: #d80202;
+  color: #6b6b6b;
 }
 .main-content .content-map {
   margin: 30px 0 30px 0;
