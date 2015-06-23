@@ -359,6 +359,8 @@ body {
        -o-border-radius: 50%;
           border-radius: 50%;
 
+  behavior: url("../PIE/PIE.htc");
+
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.5);
      -moz-box-shadow: 0 0 4px rgba(0,0,0,0.5);
        -o-box-shadow: 0 0 4px rgba(0,0,0,0.5);
