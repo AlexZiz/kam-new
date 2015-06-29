@@ -245,44 +245,55 @@ body {
 /* Post
 -----------------------------------------------------------------------------*/
 
-.post  {
-  display: inline-block;
+.post {
+  float: left;
+  max-width: 45.8612%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+
+
+ /* display: inline-block;
   margin-bottom: 15px;
   padding: 20px;
   margin-right: -3px;
   max-width: 45.8612%; 
   border: 1px solid #e2e2e2;
   background: #f9f9f9;
-  text-decoration: none;
+  text-decoration: none;*/
 }
 
 .post a {
-  margin-right: 15px;
+  display: block;
+  padding: 15px;
+  border: 1px solid #000;
   text-decoration: none;
   color:#6b6b6b;
 }
 
-.post a:nth-child(2n) {
-  margin-right: none
-}
-
-.post-img {
-  margin-left: 50px;
-  width: 450px;
-}
-
-.post-img img {
-  margin: 0;
-  padding: 0;
-  vertical-align:bottom;
-}
-
-.post-title {
+.post a .post-title {
   margin-bottom: 20px;
   text-align: center;
   font-size: 3em;
   color: #6b6b6b;
 }
+
+
+.post a .post-img {
+  margin-left: 50px;
+  width: 450px;
+}
+
+.post a .post-img img {
+  margin: 0;
+  padding: 0;
+  vertical-align:bottom;
+}
+
+
+/* Map
+-----------------------------------------------------------------------------*/
+
 .main-content .content-map {
   margin: 30px 0 30px 0;
 }
@@ -359,7 +370,7 @@ body {
        -o-border-radius: 50%;
           border-radius: 50%;
 
-  behavior: url("../PIE/PIE.htc");
+  /*behavior: url("../PIE/PIE.htc");*/
 
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.5);
      -moz-box-shadow: 0 0 4px rgba(0,0,0,0.5);
