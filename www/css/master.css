@@ -245,50 +245,6 @@ body {
 /* Post
 -----------------------------------------------------------------------------*/
 
-.post {
-  float: left;
-  max-width: 45.8612%;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  border: 1px solid #000;
-
-
- /* display: inline-block;
-  margin-bottom: 15px;
-  padding: 20px;
-  margin-right: -3px;
-  max-width: 45.8612%; 
-  border: 1px solid #e2e2e2;
-  background: #f9f9f9;
-  text-decoration: none;*/
-}
-
-.post a {
-  display: block;
-  padding: 15px;
-  border: 1px solid #000;
-  text-decoration: none;
-  color:#6b6b6b;
-}
-
-.post a .post-title {
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 3em;
-  color: #6b6b6b;
-}
-
-
-.post a .post-img {
-  margin-left: 50px;
-  width: 450px;
-}
-
-.post a .post-img img {
-  margin: 0;
-  padding: 0;
-  vertical-align:bottom;
-}
 
 
 /* Map
