@@ -1,0 +1,103 @@
+/* Slider
+-------------------------------------*/
+
+.wrap-slider {
+  margin: 20px;
+}
+
+#content {
+  width: 100%;
+  margin:50px auto 0;
+}
+
+.slider {
+  position:relative;
+  float:left;
+  width:100%;
+  height:350px;
+
+-webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.sliderContent {
+  float:left;
+  width:100%;
+  height:350px;
+  clear:both;
+  position:relative;
+  overflow:hidden;
+}
+
+.sliderArrows a {
+  display:block;
+  text-indent:-9999px;
+  outline:none;
+  z-index:50;
+  background-image:url(../gfx/prev_next.png);
+  width:42px;
+  height:42px;
+  position:absolute;
+  top:50%;
+}
+
+.prev {
+  background-position:0 0;
+  left:15px;
+}
+
+.prev:hover {
+ background-position:0 -44px;
+}
+
+.next {
+  right:15px;
+  background-position:-44px 0;
+}
+
+.next:hover {
+  background-position:-44px -44px;
+}
+
+.sliderContent .item {
+  position:absolute;
+  width:800px;
+  height:350px;
+  background:#fff;
+}
+
+.sliderBullets {
+  position:absolute;
+  bottom:-40px;
+  left:50%;
+  z-index:50;
+  margin-left:-45px;
+}
+
+.sliderBullets a {
+  display:block;
+  float:left;
+  text-indent:-9999px;
+  outline:none;
+  margin-left:5px;
+  width:10px;
+  height:11px;
+  background:url(../gfx/bullets.png) no-repeat;
+}
+
+.sliderBullets .active {
+  background-position:0 -11px;
+}
+
+.sliderContent a {
+  outline:none;
+}
+
+a {
+  color:#fff;
+}
+
+a img {
+  border:none;
+}
