@@ -123,9 +123,19 @@ body {
 .head-box {
   padding: 5px 0 0 40px;
   text-align: center;
-  font-size: 1.3em;
   font-weight: bold;
   color: #787878;
+}
+
+.head-box span {
+  font-size: 1.6em;
+}
+
+.mail span,
+.phone span,
+.activities span {
+  display: block;
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 0.73);
 }
 
 .head-box span:last-child {
@@ -141,7 +151,7 @@ body {
 }
 
 .menu ul {
-  background: #fff; /*#02a6da;*/ /*#6b6b6b;*/ 
+  background: #fff;
 }
 
 .menu ul li {
@@ -171,7 +181,7 @@ body {
   height: 60px;
 }
 
-.menu .home-link a {  /*#02a6da*/
+.menu .home-link a {
   float: left;
   width: 60px;
   height: 58px;
@@ -219,6 +229,7 @@ body {
   font-size: 3em;
   text-align: center;
   color: #6b6b6b;
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 0.73);
 }
 
 /* Post
@@ -231,6 +242,7 @@ body {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
+          box-sizing: border-box; *behavior: url(boxsizing.htc);
 
   margin: 0 15px 15px 0;
   background: #fff;
@@ -246,7 +258,7 @@ body {
 }
 
 
-.post .post-box:nth-child(2n) {
+.post .last {
   margin-right: 0;
 }
 
@@ -272,11 +284,12 @@ body {
   display: block;
   position: absolute;
   padding: 10px 20px 10px 20px;
-
+  
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
        -o-border-radius: 5px;
           border-radius: 5px;
+          behavior: url(border-radius.htc);
 
   width: 160px;
   bottom: 20px;
@@ -316,14 +329,16 @@ body {
   border: 1px solid #e2e2e2;
   border-right: none; 
 
-  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
+          box-sizing: border-box; *behavior: url(boxsizing.htc);
 
   background: #f9f9f9;
   text-decoration: none;
   font-weight: bold;
-  color: #01a3d6;  
+  color: #01a3d6; 
+  *behavior: url(ie-css3.htc); 
 }
 
 .main-box a:last-child {
@@ -369,8 +384,6 @@ body {
        -o-border-radius: 50%;
           border-radius: 50%;
 
-  /*behavior: url("../PIE/PIE.htc");*/
-
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.5);
      -moz-box-shadow: 0 0 4px rgba(0,0,0,0.5);
        -o-box-shadow: 0 0 4px rgba(0,0,0,0.5);
@@ -397,14 +410,14 @@ body {
 -----------------------------------------------------------------------------*/
 
 .footer-section {
-  height: 118px;
+  height: 150px;
   background: #292626;
   outline: 1px solid #000000;
   border-top: 2px solid #555555;
 }
 
 .footer-content {
-  margin: 20px 0 0 30px;
+  margin: 30px 0 0 30px;
 }
 
 .footer-content .foot-box {
@@ -415,25 +428,25 @@ body {
 
 .footer-content .foot-logo img  {
   display: block;
-  margin: 21px 50px 0 15px;
+  margin: 30px 50px 0 30px;
 }
 
 .contacts-footer .copyright {
   margin-left: 8%;
-  margin-top: 35px;
+  margin-top: 40px;
 }
 
 .footer-content .link,
 .footer-content .address {
   padding: 5px 0 5px 0; 
   width: 250px;
-  border: 1px solid #ccc;
+  border: 1px solid #474646;
   border-width: 1px 0 1px 0 ;
 }
 
 .footer-content ul {
   margin: 0;
-  padding: 0;
+  padding: 10px 0 10px 0;
 }
 
 .footer-content ul li {
