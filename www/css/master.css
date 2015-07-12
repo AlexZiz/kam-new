@@ -158,7 +158,6 @@ body {
   position: relative;
   display: inline-block;
   border-left: 1px solid #d3d3d3;
-  /*добавить стили для IE*/
 }
 
 .menu ul li:first-child {
@@ -173,6 +172,10 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   color: #6b6b6b;
+
+  -webkit-transition: color 0.5s ease;
+     -moz-transition: color 0.5s ease;
+       -o-transition: color 0.5s ease;
 }
 
 .menu div {
@@ -183,13 +186,21 @@ body {
 
 .menu .home-link a {
   float: left;
-  width: 60px;
-  height: 58px;
   padding: 0;
   border-right: 1px solid #d3d3d3;
+}
+
+.menu .home-link a i {
+  display: block;
+  width: 60px;
+  height: 58px;
   background-image: url(../img/home.png);  
   background-repeat: no-repeat;
   background-position: 15px 14px;
+
+  -webkit-transition: opacity 0.5s ease;
+     -moz-transition: opacity 0.5s ease;
+       -o-transition: opacity 0.5s ease;
 }
 
 .menu ul li a:hover {
@@ -211,12 +222,16 @@ body {
   width: 60px;
 }
 
+.menu .home-link a i:hover {
+  opacity: .5;
+}
+
+
 /* Section content
 -----------------------------------------------------------------------------*/
 
 .content {
   margin-top: 20px;
-  /*margin-bottom: 20px;*/
 }
 
 /* Section main-content
@@ -246,6 +261,9 @@ body {
 
   margin: 0 15px 15px 0;
   background: #fff;
+  -webkit-transition: background 0.3s ease;
+     -moz-transition: background 0.3s ease;
+       -o-transition: background 0.3s ease;
 }
 
 .post-box {
@@ -295,6 +313,10 @@ body {
   bottom: 20px;
   left: 14%;
   background: #cacaca;
+  -webkit-transition: background 0.3s ease;
+     -moz-transition: background 0.3s ease;
+       -o-transition: background 0.3s ease;
+
   font-size: 1.2em;
   text-decoration: none;
   text-align: center;
@@ -327,17 +349,20 @@ body {
   height: 150px;
   overflow: hidden;
   border: 1px solid #e2e2e2;
-  border-right: none; 
-
+  border-right: none;
   -webkit-box-sizing: border-box; 
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
           box-sizing: border-box; *behavior: url(boxsizing.htc);
 
   background: #f9f9f9;
+  -webkit-transition: background 0.3s ease;
+     -moz-transition: background 0.3s ease;
+       -o-transition: background 0.3s ease;
+
   text-decoration: none;
   font-weight: bold;
-  color: #01a3d6; 
+  color: #01a3d6;
   *behavior: url(ie-css3.htc); 
 }
 
@@ -359,6 +384,9 @@ body {
   text-align: center;
   font-size: 1.5em;
   color: #6b6b6b;
+  -webkit-transition: color 0.5s ease;
+     -moz-transition: color 0.5s ease;
+       -o-transition: color 0.5s ease;
 }
 
 .main-box a:hover div {
