@@ -116,12 +116,14 @@
 .link-more {
   margin: 10px 0 10px 0;
   background: #efefef;
-  opacity: 0.3;
-  border-left: 10px solid #000;
-
   -webkit-transition: opacity 0.5s ease;
      -moz-transition: opacity 0.5s ease;
        -o-transition: opacity 0.5s ease;
+  opacity: 0.3;
+  border-left: 10px solid #000;
+  -webkit-transition: border-color 0.5s ease;
+          -moz-transition: opacity 0.5s ease;
+            -o-transition: opacity 0.5s ease;
 }
 
 .mont-link a,
