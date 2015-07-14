@@ -30,7 +30,6 @@
   padding: 15px;
   vertical-align: top;
   border: 1px solid #ccc;
-
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
@@ -45,7 +44,6 @@
 .price .product .product-box .centr {
   padding-top: 50px;
   text-align: center;
-
 }
 
 .price .product .product-box p {
@@ -75,7 +73,6 @@
   padding: 10px;
   vertical-align: top;
   border: 1px solid #ccc;
-
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
@@ -84,13 +81,11 @@
   width: 292px;
   height: 280px;
   background: #fff;
-  
 }
 
 .price .product-m .product-box-m .centr {
   padding-top: 50px;
   text-align: center;
-
 }
 
 .price .product-m .product-box-m p {
@@ -147,12 +142,52 @@
 .contacts {
 }
 
-.title-contacts {
-  margin: 30px 0 30px 0;
-  padding: 15px 0 15px 10px;
+.cont-box {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 10px;
+  width: 393px;
+  height: 300px;
+  vertical-align: top;
   background: #fff;
-  border-left: 5px solid #08a8db;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+       -o-box-sizing: border-box;
+          box-sizing: border-box; *behavior: url(boxsizing.htc);
+
+}
+
+.cont-box:last-child {
+  margin-right: 0;
+}
+
+.title-con {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 10px 0 20px 40px;
+  border-bottom: 2px solid #08a8db;
+  background: #fff;
   font-size: 2em;
   color: #000;
+}
 
+.title-con i {
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  left: 2px;
+  top: 4px;
+  background-image: url(../img/cont-sprite.png);
+  background-repeat: no-repeat;
+}
+
+.con-address i {
+  background-position: 6px 0;
+}
+.con-email i {
+  background-position: -26px 0;
+}
+.con-phone i {
+  background-position: -60px 0;
 }
