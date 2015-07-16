@@ -61,33 +61,43 @@
   </div><!-- end menu -->
 
   <div class="content cf wrap-content">
-    <div class="title-page">
-      <h2>Как нас найти?</h2>
-    </div> 
-    <section class ="contacts">
-      <div class="contacts-box">
-        <div class="cont-address">
-          <ul>
-            <li>Набережные Челны</li>
-            <li>Машиностроительная д.13</li>
-            <li>БСМ "БЕРКУТ" Офис / Склад № 10.</li>
-          </ul>
-        </div>
-        <div class="cont-link">
-          <ul>
-            <li>+7 (8552) 36-77-13</li>
-            <li>+7 (953) 412-98-88</li>
-            <li>kamventnch@mail.ru</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+   <div class="wrap-feed">
+        <div class="title-feed">Обратная связь</div>
+        <form class="feed">
 
-    <div class="content-map">
-      <div class="wrap-map shadow sizing">
-        <div class="wrap-map"><script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=VrDLY5PO7vi0iUDQB1-mrZuz2k7HajM8&width=100%&height=500"></script></div>
-      </div>
-    </div>    
+          <div class="wrap-field">
+            <label class="left">Ваше имя:</label>
+            <input type="text" class="feed-text" name="user_name" value="" />
+          </div>
+
+          <div class="wrap-field">
+            <label class="left">Ваш email:</label>
+            <input type="text" class="feed-text" name="user_mail" value="" />
+          </div>
+
+          <div class="wrap-field">
+            <label class="left">Тема письма:</label>
+            <input type="text" class="feed-text" name="subject" value="" />
+          </div>
+
+          <div class="wrap-field area">
+            <label class="left">Текст сообщения:</label>
+            <textarea cols="40" class="textarea" rows="5" name="text"></textarea>
+          </div>
+
+          <div class="wrap-field">
+            <label class="captcha left">Введите цифры:</label>
+            <div class="capth-img"></div>
+            <input type="text" class="feed-text" name="keystring" value="" />
+          </div>
+
+          <div class="wrap-submit">
+            <label class="left"></label>
+            <input type="submit" class="btn" value="Отправить сообщение" />
+          </div>
+
+        </form><!-- .feedback -->
+      </div><!-- .feedback-block -->
 
   </div><!-- end content -->
 
