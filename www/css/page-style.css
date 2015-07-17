@@ -4,11 +4,11 @@
   margin-top:40px;
   margin-bottom: 40px;
   padding: 30px;
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
   text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
-  color: #000;
+  color: #444444;
 }
 
 .content-text {
@@ -151,7 +151,7 @@
   width: 393px;
   height: 250px;
   vertical-align: top;
-  background: #fff;
+  background: #fcfcfc;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
@@ -168,7 +168,6 @@
   margin-bottom: 30px;
   padding: 10px 0 20px 40px;
   border-bottom: 2px solid #08a8db;
-  background: #fff;
   font-size: 2em;
   font-weight: bold;
   color: #000;
@@ -238,26 +237,26 @@
 
 .title-feed {
   display: block;
-  margin: 20px 0 30px 0;
+  margin: 20px 0 70px 0;
   padding: 10px;
-  border-bottom: 1px solid #eaebea;
   font-size: 1.25em;
   font-weight: bold;
   text-align: center;
 }
 
-.wrap-feed .wrap-field {
-  margin: 4px 0 0 40px;
-  padding: 4px;
+.wrap-feed {
+  max-width: 520px;
+  margin: 30px 0 100px 0;
+  margin-left: 30%;
 }
 
-.feed-text {
-  width: 290px;
+.wrap-field {
+  padding: 10px 0 10px 0;
 }
 
+.feed-text,
 .textarea {
-  width: 290px;
-  height: 150px;
+  width: 500px;
 }
 
 .feed-text[type="text"]:focus,
@@ -270,71 +269,61 @@
 }
 
 .feed-text,
-.textarea,
-.captcha-text,
-.check-btn,
-.btn {
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-       -o-border-radius: 4px;
-          border-radius: 4px;
-}
-
-.feed-text,
 .captcha-text,
 .textarea {
   position: relative;
-  padding: 5px 10px;
-  border: 1px solid #ddd;
+  padding: 10px 10px;
+  border: 1px solid #d6d6d6;
   color: #333;
-  font-size: 16px;
-
-  -webkit-box-shadow: inset 5px 5px 12px -8px rgba(0,0,0,0.75),
-                     inset -5px 5px 12px -8px rgba(0,0,0,0.75),
-                    inset -5px -5px 12px -8px rgba(0,0,0,0.75);
-
-     -moz-box-shadow: inset 5px 5px 12px -8px rgba(0,0,0,0.75),
-                     inset -5px 5px 12px -8px rgba(0,0,0,0.75),
-                    inset -5px -5px 12px -8px rgba(0,0,0,0.75);
-
-          box-shadow: inset 5px 5px 12px -8px rgba(0,0,0,0.75),
-                     inset -5px 5px 12px -8px rgba(0,0,0,0.75),
-                    inset -5px -5px 12px -8px rgba(0,0,0,0.75);
-}
-
-.wrap-feed label {
-  margin-right: 15px;
-  width: 120px;
-  text-align: right;
-  font-weight: bold;
+  font-size: 1.3em;
+  background: #fcfcfc;
 }
 
 .wrap-field .captcha-text {
-  width: 80px;
+  width: 300px;
 }
 
 .wrap-field .check-btn {
-  margin: 20px 0 0 20px;
-  padding:0 10px;
-  height:28px;
-  background: #fd4326;
-  border:1px solid #e1e0df;
+  margin: 0 0 0 14px;
+  padding: 10px 10px;
+  width: 180px;
+  border:1px solid #eee;
   cursor: pointer;
   outline:none;
-  color:#fff;
   font-weight:bold;
-  font-size:12px;
+  font-size:1.2em;
+  background: #c4c4c4;
+  -webkit-transition: background 0.5s ease;
+     -moz-transition: background 0.5s ease;
+       -o-transition: background 0.5s ease;
+  color:#444444;
+  -webkit-transition: color 0.5s ease;
+     -moz-transition: color 0.5s ease;
+       -o-transition: color 0.5s ease;
 }
 
 .wrap-submit .btn {
   display:block;
-  margin: 20px 0 0 180px;
-  height:31px;
-  padding:0 10px;
-  color:#565e62;
+  margin: 30px 0 0 0;
+  padding: 20px 40px;
+  width: 520px;
+  background: #c4c4c4;
+  -webkit-transition: background 0.5s ease;
+     -moz-transition: background 0.5s ease;
+       -o-transition: background 0.5s ease;
   font-weight:bold;
-  font-size:12px;
-  border:1px solid #e1e0df;
+  font-size: 1.2em;
+  border:1px solid #eee;
   outline:none;
   cursor: pointer;
+  color:#444444;
+  -webkit-transition: color 0.5s ease;
+     -moz-transition: color 0.5s ease;
+       -o-transition: color 0.5s ease;
+}
+
+.wrap-submit .btn:hover,
+.wrap-field .check-btn:hover {
+  background: #01a3d6;
+  color: #fff;
 }
