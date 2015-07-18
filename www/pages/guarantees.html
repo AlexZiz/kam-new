@@ -7,7 +7,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <!-- metadata -->
- <meta property="org:title" content="Контакты">
+ <meta property="org:title" content="Т">
  <meta property="org:description" content="">
 
  <!-- CSS -->
@@ -54,46 +54,25 @@
         <a href="/"><i></i></a>
       </div>
       <ul>
-        <li><a href="contacts.html">Контакты</a></li>
-        <li><a href="Feedback.html">Обратная связь</a></li>
+        <li><a href="">Контакты</a></li>
+        <li><a href="">Обратная связь</a></li>
       </ul>
     </nav>
   </div><!-- end menu -->
 
   <div class="content cf wrap-content">
-  <div class="title-page">Есть вопрос? Напешите нам и мы будем рады Вам ответить.</div>
-   <div class="wrap-feed cf">
-        <form class="feed">
-
-          <div class="wrap-field">
-            <input type="text" class="feed-text" name="user_name" value="" placeholder="Ваше Имя:" />
-          </div>
-
-          <div class="wrap-field">
-            <input type="text" class="feed-text" name="user_mail" value=""placeholder="Email:" />
-          </div>
-
-          <div class="wrap-field">
-            <input type="text" class="feed-text" name="subject" value="" placeholder="Тема обращения" />
-          </div>
-
-          <div class="wrap-field area">
-            <textarea cols="40" class="textarea" rows="5" name="text" placeholder="Текст обращения"></textarea>
-          </div>
-
-          <div class="wrap-field">
-            <input class="captcha-text" type="text" name="example" id="example" title="Введите число"  onchange="mayak_example_cap()();" placeholder="Введите ответ: 20 минус 30" />
-            <input type="button" class="check-btn" value=" Проверить " onclick="mayak_example_cap()();" />
-            <div id="resultcap"></div>
-          </div>
-
-          <div class="wrap-submit">
-            <label class="left"></label>
-            <input type="submit" class="btn" value="Отправить сообщение" />
-          </div>
-
-        </form><!-- .feedback -->
-      </div><!-- .feedback-block -->
+    <section class="favorites-text">
+      <div class="title-page">
+        <h2>Наше отношение к клиентам!</h2>
+      </div>
+      <p>Мы ценим и уважаем каждого заказчика и гарантируем своим клиентам качество предоставляемых изделий.
+      Мы понимаем, что определяющим для наших клиентов является не только качество изделий, но также индивидуальный подход -  цена и скорость исполнения заказа, поэтому парк нашего оборудования постоянно расширяется и обновляется, а производство, при необходимости, работает непрерывно.
+      Ценовая политика компании направлена на снижение стоимости продукции и предусматривает гибкую систему скидок, размер которых зависит от объема заказа и перспектив сотрудничества.  
+      Производство воздуховодов и комплектующих проходит под тщательным контролем, что позволяет избежать попадания брака к заказчику.</p>
+    
+      <p>Мы сотрудничаем с крупнейшим производителем вентиляторов, кондиционеров и комплектующих в Европе SistemAir . Всю эту продукцию можно приобрести за наличный и безналичный расчёт на частное лицо или организацию, со склада или под заказ в кратчайшие сроки в нашей компании.</p>
+      <p>С момента оформления заказа и до окончания отгрузки готовых изделий с вами будет работать персональный менеджер. Обратившись в нашу компанию, вы всегда можете рассчитывать на вежливое и быстрое обслуживание. Специалисты нашей компании четко знают свое дело, постоянно развиваются и повышают уровень квалификации.</P>
+    </section>
 
   </div><!-- end content -->
 
@@ -105,7 +84,7 @@
             <div class="foot-box foot-logo left">
               <img src="/img/logo-footer.png" width="40" height="40" alt="Камвент-НЧ">
             </div>
-            <div class="foot-box copyright left">КАМВЕНТ-НЧ © 2015</div>
+            <div class="foot-box copyright left">Copyright КАМВЕНТ-НЧ © 2015</div>
             <div class="foot-box link right">
               <ul>
                 <li>+7 (8552) 36-77-13</li>
@@ -125,29 +104,5 @@
       </div> <!-- end footer-section -->
     </div>
   </div> <!-- end footer -->
-
-  <script>
-
-function mayak_example_cap() {
-
-  var TitleResuly = document.getElementById("resultcap");
-  var number =document.getElementById("example").value;
-  var submity = document.getElementById("submit");
-
-  if (number != "10") {
-
-    TitleResuly.innerHTML = "Вы не верно решили пример";
-    submity.style.display = "none";
-
-  } else {
-
-      TitleResuly.innerHTML = "";
-      submity.style.display = "block";
-  }
-  
-};
-
-</script>
-
 </body>
 </html>

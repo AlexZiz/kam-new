@@ -135,7 +135,7 @@ body {
 .phone span,
 .activities span {
   display: block;
-  text-shadow: 1px 1px 7px rgba(150, 150, 150, 0.73);
+  text-shadow: 1px 1px 4px rgba(150, 150, 150, 0.73);
 }
 
 .head-box span:last-child {
@@ -172,7 +172,6 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   color: #6b6b6b;
-
   -webkit-transition: color 0.5s ease;
      -moz-transition: color 0.5s ease;
        -o-transition: color 0.5s ease;
@@ -197,7 +196,7 @@ body {
   background-image: url(../img/home.png);  
   background-repeat: no-repeat;
   background-position: 15px 14px;
-
+  opacity: .5;
   -webkit-transition: opacity 0.5s ease;
      -moz-transition: opacity 0.5s ease;
        -o-transition: opacity 0.5s ease;
@@ -223,9 +222,8 @@ body {
 }
 
 .menu .home-link a i:hover {
-  opacity: .5;
+  opacity: 1;
 }
-
 
 /* Section content
 -----------------------------------------------------------------------------*/
@@ -249,16 +247,15 @@ body {
 
 /* Post
 -----------------------------------------------------------------------------*/
+
 .post .post-box {
   float: left;
   position: relative;
   padding: 15px;
-
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
           box-sizing: border-box; *behavior: url(boxsizing.htc);
-
   margin: 0 15px 15px 0;
   background: #fff;
   -webkit-transition: background 0.3s ease;
@@ -302,13 +299,11 @@ body {
   display: block;
   position: absolute;
   padding: 10px 20px 10px 20px;
-  
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
        -o-border-radius: 5px;
           border-radius: 5px;
-          behavior: url(border-radius.htc);
-
+          /*behavior: url(border-radius.htc);*/
   width: 160px;
   bottom: 20px;
   left: 14%;
@@ -316,7 +311,6 @@ body {
   -webkit-transition: background 0.3s ease;
      -moz-transition: background 0.3s ease;
        -o-transition: background 0.3s ease;
-
   font-size: 1.2em;
   text-decoration: none;
   text-align: center;
@@ -328,9 +322,6 @@ body {
   border: 1px solid #f0f0f0;
   border-bottom: 2px solid #cccccc;
 }
-
-
-
 
 /* Map
 -----------------------------------------------------------------------------*/
@@ -354,12 +345,10 @@ body {
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
           box-sizing: border-box; *behavior: url(boxsizing.htc);
-
   background: #f9f9f9;
   -webkit-transition: background 0.3s ease;
      -moz-transition: background 0.3s ease;
        -o-transition: background 0.3s ease;
-
   text-decoration: none;
   font-weight: bold;
   color: #01a3d6;
@@ -401,27 +390,22 @@ body {
   width: 80px;
   height: 80px;
   padding-top: 9%;
-
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
           box-sizing: border-box;
-
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
        -o-border-radius: 50%;
           border-radius: 50%;
-
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.3);
      -moz-box-shadow: 0 0 4px rgba(0,0,0,0.3);
        -o-box-shadow: 0 0 4px rgba(0,0,0,0.3);
           box-shadow: 0 0 4px rgba(0,0,0,0.3);
-
   border: 4px solid #01a3d6;
   -webkit-transition: border-color 0.5s ease;
      -moz-transition: border-color 0.5s ease;
        -o-transition: border-color 0.5s ease;
-
   -webkit-transition: color 0.5s ease;
      -moz-transition: color 0.5s ease;
        -o-transition: color 0.5s ease;

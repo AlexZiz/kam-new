@@ -7,7 +7,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <!-- metadata -->
- <meta property="org:title" content="Контакты">
+ <meta property="org:title" content="Т">
  <meta property="org:description" content="">
 
  <!-- CSS -->
@@ -54,47 +54,80 @@
         <a href="/"><i></i></a>
       </div>
       <ul>
-        <li><a href="contacts.html">Контакты</a></li>
-        <li><a href="Feedback.html">Обратная связь</a></li>
+        <li><a href="">Контакты</a></li>
+        <li><a href="">Обратная связь</a></li>
       </ul>
     </nav>
   </div><!-- end menu -->
 
   <div class="content cf wrap-content">
-  <div class="title-page">Есть вопрос? Напешите нам и мы будем рады Вам ответить.</div>
-   <div class="wrap-feed cf">
-        <form class="feed">
 
-          <div class="wrap-field">
-            <input type="text" class="feed-text" name="user_name" value="" placeholder="Ваше Имя:" />
-          </div>
+    <div class="title-page">
+      <h2>Все направления нашей компании</h2>
+    </div>
 
-          <div class="wrap-field">
-            <input type="text" class="feed-text" name="user_mail" value=""placeholder="Email:" />
-          </div>
+    <section class="wrap-areas">
 
-          <div class="wrap-field">
-            <input type="text" class="feed-text" name="subject" value="" placeholder="Тема обращения" />
-          </div>
+      <div class="areas-box shadow cf">
+        <a href="template-1.html"><i></i></a>
+        <div class="areas-box-content">
+          <span clall="num">1</span>
+          <p>Воздуховоды круглого сечения</p>
+        </div>
+      </div>
 
-          <div class="wrap-field area">
-            <textarea cols="40" class="textarea" rows="5" name="text" placeholder="Текст обращения"></textarea>
-          </div>
+      <div class="areas-box shadow cf">
+        <a href="template-2.html"><i></i></a>
+        <div class="areas-box-content">
+          <span clall="num">2</span>
+          <p>Воздуховоды прямоугольного сечения</p>
+        </div>
+      </div>
 
-          <div class="wrap-field">
-            <input class="captcha-text" type="text" name="example" id="example" title="Введите число"  onchange="mayak_example_cap()();" placeholder="Введите ответ: 20 минус 30" />
-            <input type="button" class="check-btn" value=" Проверить " onclick="mayak_example_cap()();" />
-            <div id="resultcap"></div>
-          </div>
+      <div class="areas-box shadow cf">
+        <a href="template-3.html"><i></i></a>
+        <div class="areas-box-content">
+          <span clall="num">3</span>
+          <p>Одно стенные круглые дымоходы</p>
+        </div>
+      </div>
 
-          <div class="wrap-submit">
-            <label class="left"></label>
-            <input type="submit" class="btn" value="Отправить сообщение" />
-          </div>
+      <div class="areas-box shadow cf">
+        <a href="template-4.html"><i></i></a>
+        <div class="areas-box-content">
+          <span clall="num">4</span>
+          <p>Дымоходы сэндвич утепленные</p>
+        </div>
+      </div>
 
-        </form><!-- .feedback -->
-      </div><!-- .feedback-block -->
+      <div class="areas-box shadow cf">
+        <a href=""><i></i></a>
+        <div class="areas-box-content">
+          <span clall="num">5</span>
+          <p>Дома из сэндвич панелей</p>
+        </div>
+      </div>
 
+      <div class="areas-box shadow cf">
+        <a href=""><i></i></a>
+        <div class="areas-box-content">
+          <span clall="num">6</span>
+          <p>Листовая нержавеющея сталь</p>
+        </div>
+      </div>
+
+      <div class="areas-box shadow cf">
+        <a href=""><i></i></a>
+        <div class="areas-box-content">
+          <span clall="num">7</span>
+          <p>Изделия из гнутого листового металла</p>
+        </div>
+      </div>
+
+    </section> <!-- end wrap-areas -->
+    
+      
+    
   </div><!-- end content -->
 
   <div class="footer">
@@ -105,7 +138,7 @@
             <div class="foot-box foot-logo left">
               <img src="/img/logo-footer.png" width="40" height="40" alt="Камвент-НЧ">
             </div>
-            <div class="foot-box copyright left">КАМВЕНТ-НЧ © 2015</div>
+            <div class="foot-box copyright left">Copyright КАМВЕНТ-НЧ © 2015</div>
             <div class="foot-box link right">
               <ul>
                 <li>+7 (8552) 36-77-13</li>
@@ -125,29 +158,5 @@
       </div> <!-- end footer-section -->
     </div>
   </div> <!-- end footer -->
-
-  <script>
-
-function mayak_example_cap() {
-
-  var TitleResuly = document.getElementById("resultcap");
-  var number =document.getElementById("example").value;
-  var submity = document.getElementById("submit");
-
-  if (number != "10") {
-
-    TitleResuly.innerHTML = "Вы не верно решили пример";
-    submity.style.display = "none";
-
-  } else {
-
-      TitleResuly.innerHTML = "";
-      submity.style.display = "block";
-  }
-  
-};
-
-</script>
-
 </body>
 </html>

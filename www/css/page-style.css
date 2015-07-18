@@ -2,13 +2,17 @@
 -----------------------------------------------------------------------------*/
 .title-page {
   margin-top:40px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding: 30px;
   font-size: 2.5em;
   text-align: center;
   font-weight: 500;
   text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
   color: #444444;
+}
+
+.favorites-text {
+  margin-bottom: 100px;
 }
 
 .content-text {
@@ -141,8 +145,6 @@
 
 /* Contacts
 -----------------------------------------------------------------------------*/
-.contacts {
-}
 
 .cont-box {
   display: inline-block;
@@ -156,7 +158,11 @@
      -moz-box-sizing: border-box;
        -o-box-sizing: border-box;
           box-sizing: border-box; *behavior: url(boxsizing.htc);
+  color: #444444;
+}
 
+.contacts-box .last {
+  margin-right: 0;
 }
 
 .cont-box:last-child {
@@ -169,9 +175,8 @@
   padding: 10px 0 20px 40px;
   border-bottom: 2px solid #08a8db;
   font-size: 2em;
-  font-weight: bold;
-  color: #000;
-  text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
+  font-weight: 500;
+  text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);
 }
 
 .title-con i {
@@ -183,6 +188,7 @@
   top: 4px;
   background-image: url(../img/cont-sprite.png);
   background-repeat: no-repeat;
+  opacity: 0.3;
   -webkit-transition: opacity 0.5s ease;
      -moz-transition: opacity 0.5s ease;
        -o-transition: opacity 0.5s ease;
@@ -199,15 +205,14 @@
 }
 
 .cont-box:hover i {
-  opacity: 0.3;
+  opacity: 1;
 }
 
 .cont-box ul,
 .cont-box span {
   font-size: 1.5em;
   margin: 20px 0 0 40px ;
-  font-weight: 600;
-  color: #3a3a3a;
+  font-weight: 500;
   text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
 }
 
@@ -227,7 +232,7 @@
   margin: 70px 0 30px 0;
   padding: 10px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 2em;
   text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
 }
@@ -246,7 +251,7 @@
 
 .wrap-feed {
   max-width: 520px;
-  margin: 30px 0 100px 0;
+  margin: 30px 0 120px 0;
   margin-left: 30%;
 }
 
@@ -304,7 +309,7 @@
 
 .wrap-submit .btn {
   display:block;
-  margin: 30px 0 0 0;
+  margin: 10px 0 0 0;
   padding: 20px 40px;
   width: 520px;
   background: #c4c4c4;
@@ -326,4 +331,106 @@
 .wrap-field .check-btn:hover {
   background: #01a3d6;
   color: #fff;
+}
+
+/* Dignity
+-----------------------------------------------------------------------------*/
+
+.dignity-title {
+  margin: 30px 0 20px 0;
+  padding: 10px;
+  font-size:2em;
+  text-align: center;
+
+}
+
+.favorites-text p {
+  margin-bottom: 40px;
+  padding:  0 1px 0 10px;
+  font-size: 1.6em;
+  line-height: 1.5;
+  border-left: 10px solid #d16666;
+}
+
+
+/* All-areas
+-----------------------------------------------------------------------------*/
+
+.wrap-areas {
+  margin: 20px auto 80px;
+  width: 800px;
+}
+
+.areas-box {
+  margin-bottom: 20px;
+}
+
+.areas-box-content {
+  position: relative;
+  float: left;
+  width: 80%;
+  height: 90px;
+  background: #fcfcfc;
+}
+
+.areas-box-content span {
+  position: absolute;
+  display: block;
+  left: 30px;
+  top: 35px;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(150, 150, 150, .5);
+  color: #444444;
+  -webkit-transition: color 0.5s ease;
+     -moz-transition: color 0.5s ease;
+       -o-transition: color 0.5s ease;
+}
+
+.areas-box-content:hover span {
+  color: #01a3d6;
+  text-shadow: 2px 2px 4px rgba(1, 163, 214, .3);
+}
+
+.areas-box-content p {
+  display: block;
+  margin: 35px 0 0 80px;
+  font-size: 2em;
+  text-shadow: 2px 2px 4px rgba(150, 150, 150, .5);
+  color: #444444;
+}
+
+.areas-box a {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 90px;
+  background: #eee;
+  -webkit-transition: background-color 0.5s ease;
+     -moz-transition: background-color 0.5s ease;
+       -o-transition: background-color 0.5s ease;
+  
+}
+
+.areas-box a i {
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  top: 30px;
+  left: 40%;
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  opacity: .3;
+}
+
+.areas-box:hover  a {
+  background: #01a3d6;
+  -webkit-transition: opacity 0.5s ease;
+     -moz-transition: opacity 0.5s ease;
+       -o-transition: opacity 0.5s ease;
+}
+
+.areas-box a:hover i {
+  opacity: 1;
 }
