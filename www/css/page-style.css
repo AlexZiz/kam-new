@@ -1,5 +1,14 @@
-/* Page-style
+
+/*=============================================================================
+ *
+ * Page-style -  price, favorit, contacts, feedback and page elemebts.
+ *
+=============================================================================*/
+
+
+/* Text style - title, favorites text, content
 -----------------------------------------------------------------------------*/
+
 .title-page {
   margin-top:40px;
   margin-bottom: 10px;
@@ -11,8 +20,25 @@
   color: #444444;
 }
 
+.all-page-title {
+  margin: 50px 0 10px 0;
+  padding: 10px;
+  font-size:2em;
+  text-align: center;
+  color: #000;
+}
+
 .favorites-text {
   margin-bottom: 100px;
+  color: #444444;
+}
+
+.favorites-text p {
+  margin-bottom: 40px;
+  padding:  0 1px 0 10px;
+  font-size: 1.6em;
+  line-height: 1.5;
+  border-left: 10px solid #d16666;
 }
 
 .content-text {
@@ -21,6 +47,43 @@
   line-height: 1.5;
   border-left: 10px solid #d16666;
 }
+ /* Ul page style
+ ------------------------------------*/
+
+.ul-wrap {
+  margin: 30px 0 0 20px;
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+
+.ul-wrap ul {
+  padding: 20px 0 0 0;
+  list-style: square;
+
+}
+
+.ul-wrap ul li {
+  padding: 5px;
+  color: #d16666;
+}
+
+.ul-wrap ul li span {
+  color: #444444;
+}
+
+/* Image - style
+-------------------------------------*/
+.img-wrap {
+  margin: 20px auto 30px;
+  text-align: center;
+}
+
+.img-wrap img {
+  border: 3px solid #fff;
+}
+
+/* Price style 
+-------------------------------------*/
 
 .price {
   margin: 30px 0 20px 0;
@@ -336,21 +399,7 @@
 /* Dignity
 -----------------------------------------------------------------------------*/
 
-.dignity-title {
-  margin: 30px 0 20px 0;
-  padding: 10px;
-  font-size:2em;
-  text-align: center;
 
-}
-
-.favorites-text p {
-  margin-bottom: 40px;
-  padding:  0 1px 0 10px;
-  font-size: 1.6em;
-  line-height: 1.5;
-  border-left: 10px solid #d16666;
-}
 
 
 /* All-areas
@@ -433,4 +482,33 @@
 
 .areas-box a:hover i {
   opacity: 1;
+}
+
+/* sip
+-----------------------------------------------------------------------------*/
+
+.content table {
+  margin: 20px 0 20px 0;
+  width: 100%;
+  font-size: 1.4em;
+  background-color: #fcfcfc;
+}
+
+.content tr {
+  border-bottom: 2px solid  #01a3d6;
+}
+
+.content tr.tr-hed {
+  background: #04799c;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content td {
+  padding: 15px 15px 15px 15px;
+}
+
+.content td span {
+  color: #d16666;
+  font-weight: bold;
 }

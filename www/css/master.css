@@ -1,3 +1,16 @@
+/*===========================================================================*/
+
+/*
+Theme Name: KamVent_3
+Theme URI: http://kamventnch.com/
+Description: Строительство домов по SIP технологиям, вентиляция, дымоходы.
+Author: Alexziz
+Author URI: none
+Version: 0.3
+*/
+
+/*===========================================================================*/
+
 /* Eric Meyer's CSS Reset
 -----------------------------------------------------------------------------*/
 
@@ -409,7 +422,6 @@ body {
   -webkit-transition: color 0.5s ease;
      -moz-transition: color 0.5s ease;
        -o-transition: color 0.5s ease;
-       
   text-align: center;
   font-size: 3.2em;
 }
